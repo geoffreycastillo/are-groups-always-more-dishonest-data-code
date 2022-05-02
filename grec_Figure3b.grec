@@ -1,0 +1,48 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bygraph_g
+*! family: by
+*! date: 22 Feb 2022
+*! time: 21:41:16
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.plotregion1.scaleaxis[1].style.editstyle draw_major_grid(no) editcopy
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].draw_view.setstyle, style(no)
+// scaleaxis[1] edits
+
+.l1title.draw_view.setstyle, style(no)
+// left 1 edits
+
+.plotregion1.plotregion1[1].barlabels[2].style.editstyle size(medsmall) editcopy
+// barlabels[2] size
+
+.plotregion1.plotregion1[2].barlabels[3].style.editstyle size(medsmall) editcopy
+// barlabels[3] size
+
+.plotregion1.plotregion1[3].barlabels[3].style.editstyle size(medsmall) editcopy
+// barlabels[3] size
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush `"{it:Base}"'
+.plotregion1.subtitle[1].text.Arrpush `"{&chi}{sup:2}(1) = 4.28, {it:p} = 0.038"'
+// subtitle[1] edits
+
+.plotregion1.subtitle[2].text = {}
+.plotregion1.subtitle[2].text.Arrpush `"{it:Charity}"'
+.plotregion1.subtitle[2].text.Arrpush `"{&chi}{sup:2}(2) = 0.26, {it:p} = 0.876"'
+// subtitle[2] edits
+
+.plotregion1.subtitle[3].text = {}
+.plotregion1.subtitle[3].text.Arrpush `"{it:CharityR}"'
+.plotregion1.subtitle[3].text.Arrpush `"{&chi}{sup:2}(2) = 1.45, {it:p} = 0.483"'
+// subtitle[3] edits
+
+
+// <end>

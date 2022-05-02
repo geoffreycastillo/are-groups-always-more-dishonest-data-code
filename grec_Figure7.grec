@@ -1,0 +1,90 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bygraph_g
+*! family: by
+*! date: 27 Apr 2022
+*! time: 18:14:01
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.Edit , cmd(.set_cols = 3) cmd(.set_rows = 0) 
+// Graph edits
+
+.style.editstyle declared_xsize(7) editcopy
+// Graph size
+
+.note.draw_view.setstyle, style(no)
+// note edits
+
+.l1title.draw_view.setstyle, style(no)
+// left 1 edits
+
+.plotregion1.yaxis1[1].style.editstyle draw_major_grid(yes) editcopy
+// yaxis1[1] edits
+
+.plotregion1.yaxis1[1].style.editstyle majorstyle(tickangle(horizontal)) editcopy
+.plotregion1.yaxis1[1].style.editstyle majorstyle(use_labels(no)) editcopy
+.plotregion1.yaxis1[1].style.editstyle majorstyle(alternate(no)) editcopy
+// yaxis1[1] edits
+
+.plotregion1.yaxis1[1].style.editstyle majorstyle(tickstyle(textstyle(size(small)))) editcopy
+// yaxis1[1] size
+
+.plotregion1.xaxis1[1].style.editstyle majorstyle(tickstyle(textstyle(size(small)))) editcopy
+// xaxis1[1] size
+
+.b1title.text = {}
+.b1title.text.Arrpush Report points
+// bottom 1 edits
+
+// key[1] edits
+
+// key[1] edits
+
+.legend.plotregion1.key[1].view.style.editstyle area(shadestyle(color(gs11))) editcopy
+.legend.plotregion1.key[1].view.style.editstyle area(linestyle(color(none))) editcopy
+// view color
+
+// key[2] color
+
+// key[2] color
+
+.legend.plotregion1.key[2].view.style.editstyle area(shadestyle(color(none))) editcopy
+.legend.plotregion1.key[2].view.style.editstyle area(linestyle(color(black))) editcopy
+// view color
+
+.legend.plotregion1.label[1].text = {}
+.legend.plotregion1.label[1].text.Arrpush Individuals
+// label[1] edits
+
+.legend.plotregion1.label[2].text = {}
+.legend.plotregion1.label[2].text.Arrpush Groups
+// label[2] edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush `"Part I"'
+.plotregion1.subtitle[1].text.Arrpush `"p=0.959"'
+// subtitle[1] edits
+
+.plotregion1.subtitle[2].text = {}
+.plotregion1.subtitle[2].text.Arrpush `"Part II"'
+.plotregion1.subtitle[2].text.Arrpush `"p=0.641"'
+// subtitle[2] edits
+
+.plotregion1.subtitle[3].text = {}
+.plotregion1.subtitle[3].text.Arrpush `"Part III"'
+.plotregion1.subtitle[3].text.Arrpush `"p=0.752"'
+// subtitle[3] edits
+
+.plotregion1.subtitle[1].style.editstyle drawbox(no) editcopy
+// subtitle[1] draw bounding box
+
+.plotregion1.plotregion1[1].style.editstyle boxstyle(linestyle(color(none))) editcopy
+// plotregion1[1] color
+
+
+// <end>

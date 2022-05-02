@@ -1,0 +1,68 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bygraph_g
+*! family: by
+*! date: 27 Apr 2022
+*! time: 15:25:41
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.plotregion1.l1title[1].text = {}
+.plotregion1.l1title[1].text.Arrpush I-Base
+// l1title[1] edits
+
+.plotregion1.l1title[4].text = {}
+.plotregion1.l1title[4].text.Arrpush G-Base
+// l1title[4] edits
+
+.plotregion1.l1title[7].text = {}
+.plotregion1.l1title[7].text.Arrpush I-Charity
+// l1title[7] edits
+
+.plotregion1.l1title[10].text = {}
+.plotregion1.l1title[10].text.Arrpush G-Charity
+// l1title[10] edits
+
+.plotregion1.l1title[12].text = {}
+.plotregion1.l1title[12].text.Arrpush I-CharityR
+// l1title[12] edits
+
+.plotregion1.l1title[12].text = {}
+// l1title[12] edits
+
+.plotregion1.l1title[13].text = {}
+.plotregion1.l1title[13].text.Arrpush I-CharityR
+// l1title[13] edits
+
+.plotregion1.l1title[16].text = {}
+.plotregion1.l1title[16].text.Arrpush G-CharityR
+// l1title[16] edits
+
+.plotregion1.t1title[1].text = {}
+.plotregion1.t1title[1].text.Arrpush Part I
+// t1title[1] edits
+
+.plotregion1.t1title[2].text = {}
+.plotregion1.t1title[2].text.Arrpush Part II
+// t1title[2] edits
+
+.plotregion1.t1title[3].text = {}
+.plotregion1.t1title[3].text.Arrpush Part III
+// t1title[3] edits
+
+.plotregion1.t1title[1].style.editstyle size(large) editcopy
+// t1title[1] size
+
+// t1title[1] size
+
+.plotregion1.l1title[1].style.editstyle size(large) editcopy
+// l1title[1] size
+
+// l1title[1] size
+
+
+// <end>

@@ -1,0 +1,141 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bygraph_g
+*! family: by
+*! date:  8 Feb 2022
+*! time: 13:39:48
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.Edit , cmd(.set_cols = 3) cmd(.set_rows = 0) 
+// Graph edits
+
+.note.draw_view.setstyle, style(no)
+// note edits
+
+.plotregion1.yaxis1[1].style.editstyle majorstyle(tickangle(horizontal)) editcopy
+.plotregion1.yaxis1[1].style.editstyle majorstyle(use_labels(no)) editcopy
+.plotregion1.yaxis1[1].style.editstyle majorstyle(alternate(no)) editcopy
+// yaxis1[1] edits
+
+.plotregion1.yaxis1[1].style.editstyle majorstyle(tickangle(horizontal)) editcopy
+.plotregion1.yaxis1[1].style.editstyle majorstyle(use_labels(no)) editcopy
+.plotregion1.yaxis1[1].style.editstyle majorstyle(alternate(no)) editcopy
+// yaxis1[1] edits
+
+.legend.Edit , style(cols(3)) style(rows(0)) keepstyles 
+// legend edits
+
+.style.editstyle declared_xsize(7) editcopy
+// Graph size
+
+// key[1] size
+
+// key[1] size
+
+.legend.plotregion1.key[1].view.style.editstyle marker(symbol(point)) editcopy
+.legend.plotregion1.key[1].view.style.editstyle marker(fillcolor(none)) editcopy
+.legend.plotregion1.key[1].view.style.editstyle marker(linestyle(color(none))) editcopy
+// view edits
+
+// key[1] edits
+
+// key[1] edits
+
+.legend.plotregion1.key[1].view.style.editstyle line(width(medthick)) editcopy
+// view width
+
+// key[2] width
+
+// key[2] width
+
+.legend.plotregion1.key[2].view.style.editstyle line(color(gs11)) editcopy
+.legend.plotregion1.key[2].view.style.editstyle line(width(medthick)) editcopy
+.legend.plotregion1.key[2].view.style.editstyle marker(fillcolor(none)) editcopy
+.legend.plotregion1.key[2].view.style.editstyle marker(linestyle(color(none))) editcopy
+// view edits
+
+// key[2] edits
+
+// key[2] edits
+
+.legend.plotregion1.key[2].view.style.editstyle line(pattern(solid)) editcopy
+// view pattern
+
+// key[2] pattern
+
+// key[2] pattern
+
+// view pattern
+
+// key[2] pattern
+
+// key[2] pattern
+
+.legend.plotregion1.key[2].view.style.editstyle line(width(thick)) editcopy
+// view width
+
+// key[2] width
+
+// key[2] width
+
+// view width
+
+// key[2] width
+
+// key[2] width
+
+.legend.plotregion1.key[2].view.style.editstyle line(width(medthick)) editcopy
+// view width
+
+// key[3] width
+
+// key[3] width
+
+.legend.plotregion1.key[3].view.style.editstyle line(pattern(longdash)) editcopy
+.legend.plotregion1.key[3].view.style.editstyle marker(fillcolor(none)) editcopy
+.legend.plotregion1.key[3].view.style.editstyle marker(linestyle(color(none))) editcopy
+// view edits
+
+.plotregion1.yaxis1[1].style.editstyle draw_major_grid(yes) editcopy
+// yaxis1[1] edits
+
+.plotregion1.xaxis1[1].style.editstyle draw_major_grid(yes) editcopy
+// xaxis1[1] edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush {it:k} = 1
+// subtitle[1] edits
+
+.plotregion1.subtitle[2].text = {}
+.plotregion1.subtitle[2].text.Arrpush {it:k} = 2
+// subtitle[2] edits
+
+.plotregion1.subtitle[3].text = {}
+.plotregion1.subtitle[3].text.Arrpush {it:k} = 3
+// subtitle[3] edits
+
+.b1title.text = {}
+.b1title.text.Arrpush {&pi}
+// bottom 1 edits
+
+.plotregion1.subtitle[1].style.editstyle drawbox(no) editcopy
+// subtitle[1] draw bounding box
+
+.legend.style.editstyle boxstyle(linestyle(color(white))) editcopy
+// legend color
+
+// legend color
+
+.l1title.style.editstyle size(medium) editcopy
+// left 1 size
+
+.b1title.style.editstyle size(medium) editcopy
+// bottom 1 size
+
+
+// <end>

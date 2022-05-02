@@ -1,0 +1,63 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: twowaygraph_g
+*! family: twoway
+*! date: 27 Apr 2022
+*! time: 17:38:59
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.yaxis1.style.editstyle draw_major_grid(yes) editcopy
+// yaxis1 edits
+
+.yaxis1.style.editstyle majorstyle(tickangle(horizontal)) editcopy
+.yaxis1.style.editstyle majorstyle(use_labels(no)) editcopy
+.yaxis1.style.editstyle majorstyle(alternate(no)) editcopy
+// yaxis1 edits
+
+.legend.draw_view.setstyle, style(no)
+// legend edits
+
+.xaxis1.title.draw_view.setstyle, style(no)
+// title edits
+
+.style.editstyle declared_xsize(7) editcopy
+// Graph size
+
+.yaxis1.style.editstyle majorstyle(tickstyle(textstyle(size(small)))) editcopy
+// yaxis1 size
+
+.plotregion1.plot1.style.editstyle area(shadestyle(color(gs11))) editcopy
+.plotregion1.plot1.style.editstyle area(linestyle(color(black))) editcopy
+// plot1 color
+
+.plotregion1.plot1.style.editstyle area(shadestyle(color("223 223 223"))) editcopy
+// plot1 color
+
+.plotregion1.plot2.style.editstyle area(linestyle(color(black))) editcopy
+// plot2 color
+
+.plotregion1.style.editstyle boxstyle(linestyle(color(none))) editcopy
+// plotregion1 color
+
+.xaxis1.major.num_rule_ticks = 0
+.xaxis1.edit_tick 1 1 `""Base" "(n=30)""', tickset(major)
+// xaxis1 edits
+
+.xaxis1.major.num_rule_ticks = 0
+.xaxis1.edit_tick 2 2 `""Charity" "(n=28)""', tickset(major)
+// xaxis1 edits
+
+.xaxis1.major.num_rule_ticks = 0
+.xaxis1.edit_tick 3 3 `""CharityR" "(n=29)""', tickset(major)
+// xaxis1 edits
+
+.xaxis1.style.editstyle majorstyle(tickstyle(textstyle(size(small)))) editcopy
+// xaxis1 size
+
+
+// <end>

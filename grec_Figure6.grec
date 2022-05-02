@@ -1,0 +1,113 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bygraph_g
+*! family: by
+*! date: 27 Apr 2022
+*! time: 16:10:23
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.style.editstyle declared_xsize(8) editcopy
+// Graph size
+
+.legend.draw_view.setstyle, style(no)
+// legend edits
+
+.note.draw_view.setstyle, style(no)
+// note edits
+
+.b1title.draw_view.setstyle, style(no)
+// bottom 1 edits
+
+.l1title.draw_view.setstyle, style(no)
+// left 1 edits
+
+.plotregion1.yaxis1[1].draw_view.setstyle, style(no)
+// yaxis1[1] edits
+
+.plotregion1.plotregion1[1].plot3.style.editstyle area(shadestyle(color(none))) editcopy
+.plotregion1.plotregion1[1].plot3.style.editstyle area(linestyle(color(none))) editcopy
+// plot3 color
+
+.plotregion1.plotregion1[1].plot3.style.editstyle area(linestyle(color(black))) editcopy
+// plot3 color
+
+.plotregion1.plotregion1[2].plot4.style.editstyle label(position(12)) editcopy
+// plot4 compass position
+
+.plotregion1.plotregion1[2].plot4.style.editstyle label(textstyle(size(large))) editcopy
+// plot4 size
+
+.plotregion1.plotregion1[1].plot2.style.editstyle area(shadestyle(color(none))) editcopy
+.plotregion1.plotregion1[1].plot2.style.editstyle area(linestyle(color(none))) editcopy
+// plot2 color
+
+.plotregion1.plotregion1[2].plot2.style.editstyle area(shadestyle(color(green))) editcopy
+// plot2 color
+
+.plotregion1.plotregion1[2].plot2.style.editstyle area(shadestyle(color("163 163 163"))) editcopy
+// plot2 color
+
+.plotregion1.plotregion1[1].plot2.style.editstyle area(linestyle(color(black))) editcopy
+// plot2 color
+
+.plotregion1.plotregion1[1].plot1.style.editstyle area(linestyle(color(black))) editcopy
+// plot1 color
+
+.plotregion1.plotregion1[1].plot4.style.editstyle label(textstyle(size(medium))) editcopy
+// plot4 size
+
+// plot4 size
+
+.plotregion1.plotregion1[2].plot4.style.editstyle marker(fillcolor(none)) editcopy
+.plotregion1.plotregion1[2].plot4.style.editstyle marker(linestyle(color(none))) editcopy
+// plot4 edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush Base
+// subtitle[1] edits
+
+.plotregion1.subtitle[2].text = {}
+.plotregion1.subtitle[2].text.Arrpush Charity
+// subtitle[2] edits
+
+.plotregion1.subtitle[1].style.editstyle drawbox(no) editcopy
+// subtitle[1] draw bounding box
+
+.plotregion1.xaxis1[1].major.num_rule_ticks = 3
+.plotregion1.xaxis1[1].edit_tick 1 1 `""IND" "(n=30)""', tickset(major)
+// xaxis1[1] edits
+
+.plotregion1.xaxis1[1].major.num_rule_ticks = 2
+.plotregion1.xaxis1[1].edit_tick 1 2 `""GRP-notOR" "(n=30)""', tickset(major)
+// xaxis1[1] edits
+
+.plotregion1.xaxis1[1].major.num_rule_ticks = 1
+.plotregion1.xaxis1[1].edit_tick 1 3 `""GRP-OR" "(n=90)""', tickset(major)
+// xaxis1[1] edits
+
+.plotregion1.xaxis1[2].major.num_rule_ticks = 3
+.plotregion1.xaxis1[2].edit_tick 1 1 `""IND" "(n=60)""', tickset(major)
+// xaxis1[2] edits
+
+.plotregion1.xaxis1[2].major.num_rule_ticks = 2
+.plotregion1.xaxis1[2].edit_tick 1 2 `""GRO-notOR" "(n=111)""', tickset(major)
+// xaxis1[2] edits
+
+.plotregion1.xaxis1[2].major.num_rule_ticks = 1
+.plotregion1.xaxis1[2].edit_tick 1 3 `""GRP-OR" "(n=60)""', tickset(major)
+// xaxis1[2] edits
+
+.plotregion1.xaxis1[2].major.num_rule_ticks = 0
+.plotregion1.xaxis1[2].edit_tick 1 1 `""IND" "(n=69)""', tickset(major)
+// xaxis1[2] edits
+
+.plotregion1.plotregion1[1].style.editstyle boxstyle(linestyle(color(none))) editcopy
+// plotregion1[1] color
+
+
+// <end>

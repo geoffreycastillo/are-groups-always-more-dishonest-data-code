@@ -1,0 +1,214 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bygraph_g
+*! family: by
+*! date: 28 Jan 2022
+*! time: 23:11:40
+*! graph_scheme: s1mono
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.Edit , cmd(.set_cols = 3) cmd(.set_rows = 0) 
+// Graph edits
+
+.note.draw_view.setstyle, style(no)
+// note edits
+
+.legend.Edit , style(cols(3)) style(rows(0)) keepstyles 
+// legend edits
+
+.style.editstyle declared_xsize(7) editcopy
+// Graph size
+
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(tickangle(horizontal)) editcopy
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(use_labels(no)) editcopy
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(alternate(no)) editcopy
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(tickangle(horizontal)) editcopy
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(use_labels(no)) editcopy
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(alternate(no)) editcopy
+// scaleaxis[1] edits
+
+.l1title.text = {}
+.l1title.text.Arrpush Percentage
+// left 1 edits
+
+.legend.style.editstyle boxstyle(linestyle(color(white))) editcopy
+// legend color
+
+// legend color
+
+.plotregion1.subtitle[1].style.editstyle drawbox(no) editcopy
+// subtitle[1] draw bounding box
+
+.plotregion1.plotregion1[1].style.editstyle boxstyle(linestyle(color(none))) editcopy
+// bar region color
+
+.plotregion1.grpaxis[1].major.num_rule_ticks = 0
+.plotregion1.grpaxis[1].edit_tick 1 22.8013 `""Individuals" "({it:n}=30)""', tickset(major)
+// grpaxis[1] edits
+
+.plotregion1.grpaxis[1].major.num_rule_ticks = 0
+.plotregion1.grpaxis[1].edit_tick 2 77.1987 `""Groups" "({it:n}=30)""', tickset(major)
+// grpaxis[1] edits
+
+.plotregion1.grpaxis[2].major.num_rule_ticks = 0
+.plotregion1.grpaxis[2].edit_tick 1 22.8013 `""Individuals" "({it:n}=30)""', tickset(major)
+// grpaxis[2] edits
+
+.plotregion1.grpaxis[3].major.num_rule_ticks = 0
+.plotregion1.grpaxis[3].edit_tick 1 22.8013 `""Individuals" "({it:n}=30)""', tickset(major)
+// grpaxis[3] edits
+
+.plotregion1.grpaxis[2].major.num_rule_ticks = 0
+.plotregion1.grpaxis[2].edit_tick 2 77.1987 `""Group" "({it:n}=28)""', tickset(major)
+// grpaxis[2] edits
+
+.plotregion1.grpaxis[2].major.num_rule_ticks = 0
+.plotregion1.grpaxis[2].edit_tick 2 77.1987 `""Groups" "({it:n}=28)""', tickset(major)
+// grpaxis[2] edits
+
+.plotregion1.grpaxis[3].major.num_rule_ticks = 0
+.plotregion1.grpaxis[3].edit_tick 2 77.1987 `""Groups" "({it:n}=29)""', tickset(major)
+// grpaxis[3] edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush Base ({&chi2}{sup:2}(1) = 4.28, {it:p} = 0.038)
+// subtitle[1] edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush `"Base ({&chi}{sup:2}(1) = 4.28, {it:p} = 0.038)"'
+// subtitle[1] edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush `"Base ({&chi}{sup:2}(1)=4.28, {it:p}=0.038)"'
+// subtitle[1] edits
+
+.plotregion1.subtitle[1].text = {}
+.plotregion1.subtitle[1].text.Arrpush `"Base"'
+.plotregion1.subtitle[1].text.Arrpush `"{&chi}{sup:2}(1)=4.28, {it:p}=0.038"'
+// subtitle[1] edits
+
+// subtitle[1] edits
+
+.plotregion1.subtitle[2].text = {}
+.plotregion1.subtitle[2].text.Arrpush `"Charity"'
+.plotregion1.subtitle[2].text.Arrpush `"{&chi}{sup:2}(2)=0.26, {it:p}=0.876"'
+// subtitle[2] edits
+
+.plotregion1.subtitle[3].text = {}
+.plotregion1.subtitle[3].text.Arrpush `"CharityR"'
+.plotregion1.subtitle[3].text.Arrpush `"{&chi}{sup:2}(2)=1.45, {it:p}=0.483"'
+// subtitle[3] edits
+
+// key[1] edits
+
+// key[1] edits
+
+.legend.plotregion1.key[1].style.editstyle area(linestyle(color(white))) editcopy
+// key[1] color
+
+// key[2] color
+
+// key[2] color
+
+.legend.plotregion1.key[2].style.editstyle area(linestyle(color(white))) editcopy
+// key[2] color
+
+// key[3] color
+
+// key[3] color
+
+.legend.plotregion1.key[3].style.editstyle area(linestyle(color(white))) editcopy
+// key[3] color
+
+// key[1] color
+
+// key[1] color
+
+.legend.plotregion1.key[1].style.editstyle area(shadestyle(color(gs5))) editcopy
+// key[1] color
+
+// key[1] color
+
+// key[1] color
+
+.legend.plotregion1.key[1].style.editstyle area(shadestyle(color(gs4))) editcopy
+// key[1] color
+
+// key[1] color
+
+// key[1] color
+
+// key[1] color
+
+// key[3] color
+
+// key[3] color
+
+.legend.plotregion1.key[3].style.editstyle area(shadestyle(color(gs3))) editcopy
+// key[3] color
+
+// key[3] color
+
+// key[3] color
+
+// key[3] color
+
+.plotregion1.plotregion1[3].bars[2].style.editstyle shadestyle(color(gs12)) editcopy
+// bars[2] color
+
+// bars[2] color
+
+// key[1] color
+
+// key[1] color
+
+.legend.plotregion1.key[1].style.editstyle area(shadestyle(color(gs9))) editcopy
+// key[1] color
+
+// key[1] color
+
+// key[1] color
+
+// key[1] color
+
+.plotregion1.scaleaxis[1].major.num_rule_ticks = 6
+.plotregion1.scaleaxis[1].edit_tick 1 0 `"0.00"', tickset(major)
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].major.num_rule_ticks = 5
+.plotregion1.scaleaxis[1].edit_tick 1 20 `"0.20"', tickset(major)
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].major.num_rule_ticks = 4
+.plotregion1.scaleaxis[1].edit_tick 2 60 `"0.60"', tickset(major)
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].major.num_rule_ticks = 3
+.plotregion1.scaleaxis[1].edit_tick 1 40 `"0.40"', tickset(major)
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].major.num_rule_ticks = 2
+.plotregion1.scaleaxis[1].edit_tick 1 80 `"0.80"', tickset(major)
+// scaleaxis[1] edits
+
+.plotregion1.scaleaxis[1].major.num_rule_ticks = 1
+.plotregion1.scaleaxis[1].edit_tick 1 100 `"1.00"', tickset(major)
+// scaleaxis[1] edits
+
+.l1title.text = {}
+.l1title.text.Arrpush Relative proportion
+// left 1 edits
+
+.plotregion1.scaleaxis[1].style.editstyle majorstyle(gridstyle(linestyle(color(gs15)))) editcopy
+// scaleaxis[1] color
+
+// scaleaxis[1] color
+
+
+// <end>
